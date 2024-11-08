@@ -1,3 +1,10 @@
+# Noam's Comments:
+
+1) After cloning, you need to create a dataset folder and use whatever data you would like to train or sample or fine tune with.
+2) You also need to download a model (I suggest starting with 256x256 uncond) to generate anything useful.
+3) The current notebook which does what we want is in notebooks/Noam_Galaxy.ipynb
+4) The single image forward-backward process is in scripts/image_sample-forward_backward.py, all of the codes that do forward-backward are in the scripts folder.
+
 # guided-diffusion
 
 This is the codebase for [Diffusion Models Beat GANS on Image Synthesis](http://arxiv.org/abs/2105.05233).
